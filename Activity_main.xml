@@ -1,0 +1,35 @@
+Activity_main.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/calc"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="CLICK ON THE BUTTON TO CALCULATE"
+        android:textAlignment="center"
+        android:textColor="#5F244E"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/sam"
+        android:layout_width="237dp"
+        android:layout_marginLeft="75dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:text="proceed"
+        android:textAlignment="center"
+        android:textColor="#131D1C"
+        android:textSize="35dp" />
+
+
+</RelativeLayout>
+
