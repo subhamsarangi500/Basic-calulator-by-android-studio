@@ -1,0 +1,135 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/calc2"
+    tools:context=".SecondaryActivity">
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:hint="ENTER THE FIRST NUMBER"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColorHint="#123432"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et1"
+        android:layout_marginTop="40dp"
+        android:hint="ENTER THE SECOND NUMBER"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColorHint="#123432"
+        android:textSize="20dp" />
+
+
+    <Button
+
+        android:id="@+id/plus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et2"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="202dp"
+        android:background="@android:color/holo_blue_light"
+        android:text="+"
+        android:textAlignment="center"
+        android:textSize="40dp" />
+
+    <Button
+        android:id="@+id/minus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et2"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="202dp"
+        android:layout_toRightOf="@+id/plus"
+        android:background="@android:color/holo_blue_light"
+        android:text="-"
+        android:textAlignment="center"
+        android:textSize="40dp" />
+
+    <Button
+        android:id="@+id/mult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et2"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="203dp"
+        android:layout_toRightOf="@+id/minus"
+        android:background="@android:color/holo_blue_light"
+        android:text="x"
+        android:textAlignment="center"
+        android:textSize="25dp" />
+
+    <Button
+
+        android:id="@+id/div"
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:layout_below="@+id/plus"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/holo_blue_light"
+        android:text="/"
+        android:textAlignment="center"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/mod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/plus"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="29dp"
+        android:layout_toRightOf="@+id/div"
+        android:background="@android:color/holo_blue_light"
+        android:text="%"
+        android:textAlignment="center"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/power"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/plus"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@+id/mod"
+        android:background="@android:color/holo_blue_light"
+        android:text="^"
+        android:textAlignment="center"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et2"
+        android:layout_marginTop="40dp"
+        android:text="YOUR RESULT WILL BE DISPLAYED HERE"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="23dp" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview"
+        android:layout_marginTop="34dp"
+        android:text="SELECT OPERATION"
+        android:textAlignment="center"
+        android:textColor="#F1C40F"
+        android:textSize="25dp" />
+
+
+</RelativeLayout>
+
